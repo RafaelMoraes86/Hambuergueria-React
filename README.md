@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Interface de Hamburgueria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do projeto de interface de uma hamburgueria! Neste projeto, desenvolvemos uma aplicação web que permite aos clientes fazer pedidos e visualizá-los em uma segunda tela. Também é possível deletar os pedidos.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- React.js: Biblioteca JavaScript de código aberto para criar interfaces de usuário.
+- Axios: Biblioteca JavaScript para fazer requisições HTTP.
+- React Router Dom: Biblioteca que lida com as rotas da aplicação React.
+- JavaScript: Linguagem de programação utilizada para escrever a lógica do aplicativo.
+- Styled Components: Biblioteca para estilizar componentes React com CSS-in-JS.
+- React Hooks: Recurso do React que permite utilizar estado e outras funcionalidades em componentes funcionais.
+- CORS: Mecanismo de segurança utilizado para permitir solicitações entre diferentes origens na web.
+- CSS: Linguagem de estilo utilizada para estilizar a interface do aplicativo.
+- Node.js: Ambiente de tempo de execução JavaScript do lado do servidor.
+- Insomnia: Ferramenta para testar e depurar solicitações HTTP.
+- Express.js: Framework web para Node.js que simplifica a criação de aplicativos web.
 
-### `npm start`
+## Como Executar o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Certifique-se de ter o Node.js instalado em sua máquina.
+2. Clone este repositório em seu computador.
+3. Navegue até o diretório raiz do projeto no terminal.
+4. Execute o comando `npm install` para instalar as dependências do projeto.
+5. Após a conclusão da instalação, execute o comando `npm start` para iniciar o servidor de desenvolvimento.
+6. Acesse a aplicação em seu navegador através do endereço `http://localhost:3000`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+A estrutura de diretórios do projeto é organizada da seguinte forma:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+- src
+  - assets: Contém arquivos de mídia, como imagens e ícones.
+  - components: Contém os componentes reutilizáveis da aplicação.
+    - Button.js: Componente de botão reutilizável.
+    - ContainerItens.js: Componente de contêiner para os itens do pedido.
+    - Title.js: Componente de título reutilizável.
+  - containers:
+    - Home.js: Página inicial da aplicação.
+    - Orders.js: Página de visualização e exclusão dos pedidos.
+  - styles:
+    - GlobalStyles.js: Estilos globais da aplicação.
+  - index.js: Ponto de entrada da aplicação.
+  - routes.js: Configuração das rotas da aplicação.
+```
 
-### `npm run build`
+## Contribuindo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Se deseja contribuir para este projeto, siga as etapas abaixo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Faça um fork deste repositório.
+2. Crie uma branch com o nome da sua feature: `git checkout -b minha-nova-feature`.
+3. Faça as alterações desejadas no código.
+4. Commit suas alterações: `git commit -m 'Adicionando nova feature'`.
+5. Push para a branch: `git push origin minha-nova-feature`.
+6. Abra um Pull Request neste repositório.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prévias do Aplicativo
 
-### `npm run eject`
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDE3YTU4YmU4ZGJiZDA2OGViMDA4ZTljMjNhNmM3YWNlNTEyMzBjYiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/cORXAqacRBLOjrFBIW/giphy.gif">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTEzNjkwYTViOTRjN2RlY2RhYjI5OWUxMmU3MGVlNmJhMmQxMWNiMyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/mkiCiAWzjTNbMPQNhZ/giphy.gif">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contato
 
-## Learn More
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato conosco através do email: [seu-email@example.com](mailto:seu-email@example.com).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Agradeço seu interesse no projeto!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
